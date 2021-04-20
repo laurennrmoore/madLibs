@@ -6,42 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+   
 </head>
 <body> 
-  <h1>Mad Libs</h1>
-  <h2>Baby Shower</h2>  
+  
+  <h1>Mad Libs:Baby Shower Edition</h1>  
   
   <input type="text">
 <div>
   <ul>
-    <li><input type="text" placeholder="noun"></li>
-    <li><input type="text" placeholder="noun"></li>
-    <li><input type="text" placeholder="number"></li>
-    <li><input type="text" placeholder="verb"></li>
-    <li><input type="text" placeholder="noun"></li>
-    <li><input type="text" placeholder="adjective"></li>
-    <li><input type="text" placeholder="verb"></li>
-    <li><input type="text" placeholder="verb"></li>
-    <li><input type="text" placeholder="verb"></li>
-    <li><input type="text" placeholder="noun"></li>
-    <li><input type="text" placeholder="verb"></li>
-    <li><input type="text" placeholder="noun"></li>
-    <li><input type="text" placeholder="adjective"></li>
+    
+    <li><input type="text" id='noun1' placeholder=""></li>
+    <li><input type="text" id='noun2'  placeholder=""></li>
+    <li><input type="text" id='number' placeholder=""></li>
+    <li><input type="text" id='verb1' placeholder=""></li>
+    <li><input type="text" id='noun3' placeholder=""></li>
+    <li><input type="text" id='adjective1' placeholder=""></li>
+    <li><input type="text" id='verb2' placeholder=""></li>
+    <li><input type="text" id='verb3' placeholder=""></li>
+    <li><input type="text" id='verb4' placeholder=""></li>
+    <li><input type="text" id='noun4' placeholder=""></li>
+    <li><input type="text" id='verb5' placeholder=""></li>
+    <li><input type="text" id='noun5' placeholder=""></li>
+    <li><input type="text" id='verb6' placeholder=""></li>
+    <li><input type="text" id='noun6' placeholder=""></li>
+    <li><input type="text" id='adjective2' placeholder=""></li>
   </ul>
 </div>
-<img style='border:5px double hsl(0, 4%, 5%)' src="https://images.unsplash.com/photo-1439920120577-eb3a83c16dd7?ixid=MnwxMjA3fDB8MXxzZWFyY2h8Mzl8fGJhYmllc3xlbnwwfHx8fDE2MTczMTQ5MDY&ixlib=rb-1.2.1&dpr=1&auto=format&fit=crop&w=120&h=200&q=60 "alt="infant hand in adult hand" style="float: right;">
 
-
-<p>
-  My name is Lauren and I've known Haviland for 5 years. I flown all the way from Ohio to celebrate today.I'm so excited for the new parents.
-</p>
-
-<strong><u>My Best Advice</u></strong>
+<div>
+<img  class="heart"style='border:5px double hsl(0, 4%, 5%)' src="./images/kids-me-germany-Zzgmde4_lYU-unsplash.jpg"alt="teddy bear and blanket in basket">
+</div>
+<!-- 
 
 <p>
-Don't forget to  think before you speak and look after the baby. Daddy you should always love Mommy's baby and Mommy you should always love daddy's baby. You are going to be the best parents ever; hugs and kisses to you and the baby!
+  <br>My name is (blank) and I've known (blank) for (blank) years. I (blank) all the way from (blank) to celebrate today.I'm so (blank) for the new parents.<br>
 </p>
 
 
+
+<h2 class="My Best Advice">
+<u>My Best Advice</u>
+</h2>
+
+
+<p>
+    Don't forget to (blank) before you (blank) and (blank) after the (blank). Daddy you should always (blank) Mommy's (blank) and Mommy you should always (blank) daddy's (blank). You are going to be the (blank) parents ever!
+</p> -->
+<div id="answer"></div>
+<button type="button" onclick='createParagraph()'>click </button> <script src="./app.js"></script>
 </body>
 </html>
+

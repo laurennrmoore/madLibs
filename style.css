@@ -1,99 +1,129 @@
 h1{
    font-family: 'Times New Roman', Times, serif;
-   font-weight: 600;
+   font-weight: 400;
    text-align: center;
-
+   
 }
 
 img{
-justify-items: center;
+margin: auto;
+display:block;
+width: 150px;
 }
 
 
-.center { display: block; margin-left: auto; margin-right: }
+.center { display: block; margin-left: auto;  }
+
+
+h1{
+
+  background-color:aqua;
+  text-align: center;
+}
+
 
 h2{
     font-family: serif,fantasy;
     font-weight: 400;
     text-align: center;
+    background-color: aqua;
     
 }
 
 
+.MyBestAdvice{
+  text-align: center;
+  background-color: rgb(152, 245, 248);
+  font-size: 1em;
+}
 
 
+p{
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
 
 
-/* 
-   Imacs, Big desktop monitor.
-*/
+.div2{
+  margin-block: center;
+}
 
-@media (min-width: 1281px) {
+/* Heartbeat effect - wanting to apply it to the image */
+ 
 
-    /* CSS */
-  
+.back {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  animation-name: backdiv;
+  animation-duration: 1s;
+
+}
+
+.heart {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: pink;
+  height: 150px;
+  width: 150px;
+  /* transform: rotate(-45deg); */
+  animation-name: beat;
+  /* animation-duration: 1s; */
+  animation: beat 1s infinite;
+
+}
+/* .heart:after {
+  background-color: pink; 
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0px;
+  left: 25px;
+}
+.heart:before {
+  background-color: pink; 
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: -25px;
+  left: 0px;
+} */
+
+@keyframes backdiv {
+  50% {
+    background: #ffe6f2;
   }
-  
-  /* 
-   Laptops,Desktop monitors,ipad pros
-  */
-  
-  @media (min-width: 1025px) and (max-width: 1280px) {
-  
-    /* CSS */
-  
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1);
   }
-  
-  /* 
-    portrait tablets and ipads
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) {
-  
-    /* CSS */
-  
+  50% {
+    transform: scale(0.6);
   }
+} 
+
+
   
-  /* 
-    Landscape tablets and ipads
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-    /* CSS */
-  
-  }
-  
-  /* 
-  Landscape for mobiles and tablets
-  */
-  
-  @media (min-width: 481px) and (max-width: 767px) and 
-  (orientation: landscape)  {
-  
-    /* CSS */
-  
-  }
-  
-  /* 
-   Mostly all smartphones
-  */
-  
-  @media (min-width: 320px)  {
-   div{
-       background-color: aquamarine;
-       text-size-adjust: 16px;
-       orientation: landscape;
-       
-   }
-  
-  }
 
 
 
-
-
-      /* 320px — 480px: Mobile devices*/
+ 
 
 
 
