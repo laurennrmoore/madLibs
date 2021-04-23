@@ -11,8 +11,8 @@ var wordNine = document.getElementById('verb4').value;
 var wordTen = document.getElementById('noun4').value;
 var wordEleven = document.getElementById('verb5').value;
 var wordTwelve = document.getElementById('noun5').value;
-var wordThirteen = document.getElementById('verb6').value
-var wordFourteen = document.getElementById('noun6').value
+var wordThirteen = document.getElementById('verb6').value;
+var wordFourteen = document.getElementById('noun6').value;
 var wordFifteen = document.getElementById('adjective2').value;
 
 
